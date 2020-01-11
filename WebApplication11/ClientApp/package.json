@@ -1,0 +1,32 @@
+{
+  "name": "WebApplication11",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@elastic/datemath": "^5.0.2",
+    "@elastic/eui": "^12.4.0",
+    "bootstrap": "^3.4.1",
+    "moment": "^2.13.0",
+    "node-sass-package-importer": "5.3.0",
+    "prop-types": "^15.5.0",
+    "react": "^16.3",
+    "react-dom": "^16.3",
+    "react-bootstrap": "^0.31.5",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/prop-types": "15.5.8",
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11",
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {
+    "start": "rimraf ./build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
